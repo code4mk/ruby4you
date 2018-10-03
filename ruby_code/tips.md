@@ -16,3 +16,8 @@
 # kernel
 
 * [https://ruby-doc.org/core-2.5.1/Kernel.html](https://ruby-doc.org/core-2.5.1/Kernel.html)
+
+# & argument
+
+* https://www.skorks.com/2013/04/ruby-ampersand-parameter-demystified/
+* https://ruby-doc.com/docs/ProgrammingRuby/html/tut_methods.html
