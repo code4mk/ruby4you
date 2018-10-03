@@ -4,10 +4,10 @@ class User
   def info
     puts "this is kamal"
   end
-
-
   # alias new_info info
-  #
+  # alias_method :new_name, :old_name
+  # alias_method 'new_name', 'old_name'
+  
   def self.u
     alias_method :new_name, :info
   end
