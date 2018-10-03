@@ -6,5 +6,4 @@ users = {
         "home" => "018"
     }
 }
-
 puts "#{users["phone"]["office"]}"
