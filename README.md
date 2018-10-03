@@ -1,2 +1,2 @@
 # ruby4you
-:ruby: ruby tips
+💎 learn ruby with fun
