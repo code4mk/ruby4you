@@ -2,7 +2,7 @@
 your_string =  gets.chomp()
 b = []
 b = your_string.split(//)
-count = 0
+count = 1
 # loop store_string
 b.each_with_index {|val, index|
   if val == "_"
@@ -20,9 +20,8 @@ b.each_with_index {|val, index|
       end
       previous_datas = previous_datas + 1
     end
-    for i in  store_vowel.uniq
-      count = count + 1
-    end
+    v_count = store_vowel.uniq.length
+    count = count * v_count
   end
 }
 puts "#{your_string} =>  #{count} uniq combination"
